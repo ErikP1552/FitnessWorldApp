@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSExtension</key>
+	<dict>
+		<key>NSExtensionAttributes</key>
+		<dict>
+			<key>WKAppBundleIdentifier</key>
+			<string>newnew.Fitness-World.watchkitapp</string>
+		</dict>
+		<key>NSExtensionPointIdentifier</key>
+		<string>com.apple.watchkit</string>
+	</dict>
+	<key>UIBackgroundModes</key>
+	<array/>
+	<key>WKBackgroundModes</key>
+	<array>
+		<string>workout-processing</string>
+	</array>
+	<key>CFBundleIdentifier</key>
+	<string></string>
+	<key>NSHealthShareUsageDescription</key>
+	<string>Your workout related data will be used to display your saved workouts in FitnessWorld</string>
+	<key>NSHealthUpdateUsageDescription</key>
+	<string>Workouts tracked by Fitness World on Apple Watch will be saved to healthkit</string>
+</dict>
+</plist>
